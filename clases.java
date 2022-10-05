@@ -7,12 +7,13 @@ import java.util.Set;
 public class clases {
 
     public static void main(String[] args) {
-        List<Integer> obras = new ArrayList<>(5);
-
+        System.out.println("Digite el tamaño de la lista : ");
         Scanner sc = new Scanner(System.in);
-        int x = 10;
-        // System.out.println("Digite el tamaño de la lista : ");
+        int x = sc.nextInt();
+        List<Integer> obras = new ArrayList<>(x);
 
+        
+        //Ingresamos los elementos de la lista
         for (int i = 0; i <= x; i++) {
             System.out.print("Ingreses un valor a la lista : ");
             int obra = sc.nextInt();
