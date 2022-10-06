@@ -34,24 +34,44 @@ public class clases2 {
             
         }
 
-        System.out.println();
+        List<Integer> obrasInteresMuseo2 = new ArrayList<>();
 
-        for (int i = 0; i<obrasMuseo1.size(); i++) {
-
-            int element = obrasMuseo1.get(i); // crea una variable para obtener cada elemento y luego lo imprime
-            System.out.println(element);
-            
-
+        //for (int i = 0; i<obrasMuseo1.size(); i++) {
+        for(Integer element:obrasMuseo1){
+            boolean found = false;
+            for(Integer element2:obrasMuseo2){
+                if(element == element2){
+                    found = true;
+                    break;
+                }
+            }
+            if(!found){
+                obrasInteresMuseo2.add(element);
+            }
         }
 
-        System.out.println();
+        System.out.println(obrasInteresMuseo2);
 
-        for (int i = 0; i<obrasMuseo2.size(); i++) {
-            int element = obrasMuseo2.get(i); // crea una variable para obtener cada elemento y luego lo imprime
-            System.out.println(element);
+        // System.out.println();
+
+        // for (int i = 0; i<obrasMuseo1.size(); i++) {
+
+        //     int element = obrasMuseo1.get(i); // crea una variable para obtener cada elemento y luego lo imprime
+        //     System.out.println(element);
             
 
-        }
+        // }
+
+        // System.out.println();
+
+        // for (int i = 0; i<obrasMuseo2.size(); i++) {
+        //     int element = obrasMuseo2.get(i); // crea una variable para obtener cada elemento y luego lo imprime
+        //     System.out.println(element);
+            
+
+        // }
+
+
 
 
     }
