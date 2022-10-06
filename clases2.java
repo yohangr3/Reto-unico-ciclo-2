@@ -52,24 +52,6 @@ public class clases2 {
 
         System.out.println(obrasInteresMuseo2);
 
-        // System.out.println();
-
-        // for (int i = 0; i<obrasMuseo1.size(); i++) {
-
-        //     int element = obrasMuseo1.get(i); // crea una variable para obtener cada elemento y luego lo imprime
-        //     System.out.println(element);
-            
-
-        // }
-
-        // System.out.println();
-
-        // for (int i = 0; i<obrasMuseo2.size(); i++) {
-        //     int element = obrasMuseo2.get(i); // crea una variable para obtener cada elemento y luego lo imprime
-        //     System.out.println(element);
-            
-
-        // }
 
 
 
